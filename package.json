@@ -1,0 +1,30 @@
+{
+  "name": "foocipe",
+  "version": "1.0.0",
+  "description": "Food reciepe project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
+  },
+  "author": "Aryan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "html": "^1.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-polyfill": "^6.26.0",
+    "fractional": "^1.0.0",
+    "uniqid": "^5.3.0"
+  }
+}
